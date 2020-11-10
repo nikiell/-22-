@@ -1,0 +1,118 @@
+//17. Створити клас SkiResort в якому представлені 5 курортів, кожен з яких має
+//чотири характеристики: ціна скіпасу, загальна довжина трас, найвища точка
+//курорту. Четверту характеристику обрати самому. Реалізувати можливість
+//клієнту обрати собі курорт до смаку. Вивести всі варіанти які йому підходять,
+//якщо не підходить жоден – вивести відповідне повідомлення.
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp4
+{
+    class SkiResort
+    {
+        public int price;
+        public int length;
+        public int height;
+        public int hotel;
+        public SkiResort(int a, int b, int c, int d) { price = a; length = b; height = c; hotel = d; }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = 0;
+            SkiResort Bukovel = new SkiResort(500, 3000, 3000, 5000);  
+            SkiResort Krasiya = new SkiResort(600, 1200, 4500, 6000);
+            SkiResort Plai = new SkiResort(300, 3500, 1300, 4000);
+            SkiResort Dragobrat = new SkiResort(450, 5000, 4000, 5500);
+            SkiResort Pylypets = new SkiResort(500, 3500, 2300, 4300);
+            Console.WriteLine("Введите желаемую цену скипаса");
+            int p=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите желаемую общую длину трасс");
+            int l= Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите желаемую высоту самой высокой точки");
+            int h= Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите желаемую цену отеля");
+            int ph= Convert.ToInt32(Console.ReadLine());
+            if (Bukovel.price <= p)
+            {
+                if (Bukovel.length >= l)
+                {
+                    if(Bukovel.height >= h)
+                    {
+                        if (Bukovel.hotel <= ph)
+                        {
+                            n++;
+                            Console.WriteLine("Bukovel");
+                        }
+                    }
+                }
+            }
+            if (Krasiya.price <= p)
+            {
+                if (Krasiya.length >= l)
+                {
+                    if (Krasiya.height >= h)
+                    {
+                        if (Krasiya.hotel <= ph)
+                        {
+                            n++;
+                            Console.WriteLine("Krasiya");
+                        }
+                    }
+                }
+            }
+            if (Plai.price <= p)
+            {
+                if (Plai.length >= l)
+                {
+                    if (Plai.height >= h)
+                    {
+                        if (Plai.hotel <= ph)
+                        {
+                            n++;
+                            Console.WriteLine("Plai");
+                        }
+                    }
+                }
+            }
+            if (Dragobrat.price <= p)
+            {
+                if (Dragobrat.length >= l)
+                {
+                    if (Dragobrat.height >= h)
+                    {
+                        if (Dragobrat.hotel <= ph)
+                        {
+                            n++;
+                            Console.WriteLine("Dragobrat");
+                        }
+                    }
+                }
+            }
+            if (Pylypets.price <= p)
+            {
+                if (Pylypets.length >= l)
+                {
+                    if (Pylypets.height >= h)
+                    {
+                        if (Pylypets.hotel <= ph)
+                        {
+                            n++;
+                            Console.WriteLine("Pylypets");
+                        }
+                    }
+                }
+            }
+            if (n == 0)
+            {
+                Console.WriteLine("За вашими критериями курорты не были найдены");
+            }
+            Console.ReadLine();
+        }
+    }   
+}
