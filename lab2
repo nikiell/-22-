@@ -24,7 +24,7 @@ namespace ConsoleApp6
                 for (int i = k; i < nk; i++)
                 {
 
-                    a = a * ((k^2+(-1)^k*k-1)/(k^2+1));
+                    a = a + ((k^2+(-1)^k*k-1)/(k^2+1));
                 }
                 Console.WriteLine($"a={a}");
             }
