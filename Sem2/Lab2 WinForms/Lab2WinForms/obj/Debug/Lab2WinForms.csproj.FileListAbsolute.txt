@@ -1,0 +1,10 @@
+C:\Users\NyaKyt\source\repos\Lab2WinForms\Lab2WinForms\bin\Debug\Lab2WinForms.exe.config
+C:\Users\NyaKyt\source\repos\Lab2WinForms\Lab2WinForms\bin\Debug\Lab2WinForms.exe
+C:\Users\NyaKyt\source\repos\Lab2WinForms\Lab2WinForms\bin\Debug\Lab2WinForms.pdb
+C:\Users\NyaKyt\source\repos\Lab2WinForms\Lab2WinForms\obj\Debug\Lab2WinForms.csprojAssemblyReference.cache
+C:\Users\NyaKyt\source\repos\Lab2WinForms\Lab2WinForms\obj\Debug\Lab2WinForms.Form1.resources
+C:\Users\NyaKyt\source\repos\Lab2WinForms\Lab2WinForms\obj\Debug\Lab2WinForms.Properties.Resources.resources
+C:\Users\NyaKyt\source\repos\Lab2WinForms\Lab2WinForms\obj\Debug\Lab2WinForms.csproj.GenerateResource.cache
+C:\Users\NyaKyt\source\repos\Lab2WinForms\Lab2WinForms\obj\Debug\Lab2WinForms.csproj.CoreCompileInputs.cache
+C:\Users\NyaKyt\source\repos\Lab2WinForms\Lab2WinForms\obj\Debug\Lab2WinForms.exe
+C:\Users\NyaKyt\source\repos\Lab2WinForms\Lab2WinForms\obj\Debug\Lab2WinForms.pdb
