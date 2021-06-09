@@ -1,0 +1,7 @@
+textBox: qweqwe
+checkBox1: False
+checkBox2: True
+Height: 228
+Width: 418
+
+
